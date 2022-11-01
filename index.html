@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web page</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><img src="./public/img/logo.svg" width="50px" alt="Brand Logo"></a>
+        
+        <ul id="menu">
+            <li><a href="./index.html" class="menuItem active">HOME</a></li>
+            <li><a href="./layouts.html" class="menuItem">LAYOUTS</a></li>
+            <li><a href="./position.html" class="menuItem">POSITION & STACKING</a></li>
+            <li><a href="./media.html" class="menuItem">MEDIA</a></li>
+            <li><a href="./js.html" class="menuItem">JS</a></li>
+        </ul>
+
+        <!-- <form action="#" method="post">
+            <input type="search" name="search" id="search" placeholder="Search...">
+            <input type="submit" value="Search" id="searchbtn">
+        </form> -->
+    </nav>
+
+    <div id="container">
+        <aside>
+            this is it
+        </aside>
+        <main>
+
+            <ul class="em">
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>
+                    <ul>
+                        <li>List 3a</li>
+                        <li>List 3b</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div id="testing">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime corrupti vel dolores neque debitis officiis est, doloribus a soluta ad! Voluptate libero a, distinctio repellendus explicabo est aliquam rerum veritatis.
+            </div>
+
+            <ul class="rem">
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>
+                    <ul>
+                        <li>List 3a</li>
+                        <li>List 3b</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>HTML5 TABLES</h3>
+            <table style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th colspan="5" id="table-header">Secondary School</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>S/N</th>
+                        <th style="width: 60%; height: 50px">Name</th>
+                        <th>Class</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">Default</td>
+                        <td>1</td>
+                        <td>Nduka Okafor</td>
+                        <td>SS2</td>
+                        <td>38</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bode Thomas</td>
+                        <td>SS3</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ifeanyi Okwuma</td>
+                        <td>SS1</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Segun Arinze</td>
+                        <td>SS2</td>
+                        <td>48</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                This is Element 1
+            </p><br>
+            <p>
+                This is Element 2
+            </p>
+
+            <form action="" method="post" style="margin-top: 50px">
+                <h3>SIMPLE FORM</h3>
+                <div>
+                    <label for="text">Full Name:</label><br>
+                    <input type="name" id="name" placeholder="Full Name..." value="Ufondu" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="E-mail..." required>
+                </div>
+                <div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" id="password" placeholder="Password..." required>
+                </div>
+                <div>
+                    <label for="bio">Biography:</label><br>
+                    <textarea name="bio" id="bio" cols="30" rows="5">This is the textarea field</textarea>
+                </div>
+                <div>
+                    <label for="tel">Phone Number:</label><br>
+                    <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel">
+                </div>
+                <div>
+                    <span>Gender:</span><br>
+                    <label for="gmale">Male:</label>
+                    <input type="radio" name="gender" id="gmale" value="Male">
+                    <label for="gfemale">Female:</label>
+                    <input type="radio" name="gender" id="gfemale" value="Female">
+                </div>
+                <div>
+                    <span>Hobbies:</span><br>
+                    <label for="fball">Football:</label>
+                    <input type="checkbox" name="hobby" id="fball" value="Football">
+                    <label for="sing">Singing:</label>
+                    <input type="checkbox" name="hobby" id="sing" value="Singing">
+                    <label for="play">Playing:</label>
+                    <input type="checkbox" name="hobby" id="play" value="Playing">
+                    <label for="dance">Dancing:</label>
+                    <input type="checkbox" name="hobby" id="dance" value="Dancing">
+                </div>
+                <div>
+                    <label for="tribal">Tribal Group:</label>
+                    <select name="tribal" id="tribal">
+                        <option>Select one</option>
+                        <option value="igbo">Igbo</option>
+                        <option value="yoruba">Yoruba</option>
+                        <option value="hausa">Hausa</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

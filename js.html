@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Tutorial</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><img src="./public/img/logo.svg" width="50px" alt="Brand Logo"></a>
+        
+        <ul id="menu">
+            <li><a href="./index.html" class="menuItem">HOME</a></li>
+            <li><a href="./layouts.html" class="menuItem">LAYOUTS</a></li>
+            <li><a href="./position.html" class="menuItem">POSITION & STACKING</a></li>
+            <li><a href="./media.html" class="menuItem">MEDIA</a></li>
+            <li><a href="./js.html" class="menuItem active">JS</a></li>
+        </ul>
+
+        <!-- <form action="#" method="post">
+            <input type="search" name="search" id="search" placeholder="Search...">
+            <input type="submit" value="Search" id="searchbtn">
+        </form> -->
+    </nav>
+
+    <div class="container">
+        <!-- <p>Your Name is: <strong><span id="nameOutput"></span></strong></p>
+        <p>Your Age is: <strong><span id="ageOutput"></span></strong></p>
+        <p>Your Gender Code is: <strong><span id="genderOutput"></span></strong></p> -->
+
+        <form action="">
+            <div>
+                <input type="text" name="username" placeholder="Username..." id="username" required><br>
+                <small id="usernameerror" style="color: red;"></small>
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Password..." id="password" required><br>
+                <small id="passworderror" style="color: red;"></small>
+            </div>
+            <div>
+                <input type="button" value="Login" onclick="login()">
+            </div>
+        </form>
+    </div>
+
+    <script src="./public/js/scripts.js"></script>
+</body>
+</html>

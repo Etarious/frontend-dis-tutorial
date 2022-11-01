@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><img src="./public/img/logo.svg" width="50px" alt="Brand Logo"></a>
+        
+        <ul id="menu">
+            <li><a href="./index.html" class="menuItem">HOME</a></li>
+            <li><a href="./layouts.html" class="menuItem">LAYOUTS</a></li>
+            <li><a href="./position.html" class="menuItem active">POSITION & STACKING</a></li>
+            <li><a href="./media.html" class="menuItem">MEDIA</a></li>
+            <li><a href="./js.html" class="menuItem">JS</a></li>
+        </ul>
+
+        <!-- <form action="#" method="post">
+            <input type="search" name="search" id="search" placeholder="Search...">
+            <input type="submit" value="Search" id="searchbtn">
+        </form> -->
+    </nav>
+    <div class="position-container">
+        <div class="up-btn">
+            Up
+        </div>
+        <div class="pos">
+            <img src="./public/img/logo.svg" width="200px" alt="Logo">
+            <p>This is just a paragraph</p>
+        </div>
+        
+
+        <ul class="em">
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>
+                <ul>
+                    <li>List 3a</li>
+                    <li>List 3b</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div id="testing">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime corrupti vel dolores neque debitis officiis est, doloribus a soluta ad! Voluptate libero a, distinctio repellendus explicabo est aliquam rerum veritatis.
+        </div>
+
+        <ul class="rem">
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>
+                <ul>
+                    <li>List 3a</li>
+                    <li>List 3b</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>HTML5 TABLES</h3>
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th colspan="5" id="table-header">Secondary School</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>S/N</th>
+                    <th style="width: 60%; height: 50px">Name</th>
+                    <th>Class</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Default</td>
+                    <td>1</td>
+                    <td>Nduka Okafor</td>
+                    <td>SS2</td>
+                    <td>38</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bode Thomas</td>
+                    <td>SS3</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ifeanyi Okwuma</td>
+                    <td>SS1</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Segun Arinze</td>
+                    <td>SS2</td>
+                    <td>48</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="./public/js/scripts.js"></script>
+</body>
+</html>
